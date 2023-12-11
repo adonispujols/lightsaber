@@ -1,0 +1,137 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-color: #000000;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+img.displayed {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+a {
+    color: white;
+}
+
+canvas {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.confirm-button {
+    width: 75%;
+    color: white;
+    border-radius: 10px;
+    background-color: #22c6ef;
+    display: none;
+    margin: 10px;
+    padding: 15px;
+    transition: background-color .5s;
+}
+
+.confirm-button span {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.confirm-button:hover {
+    background-color: rgba(34, 198, 239, 0.68);
+    cursor: pointer;
+}
+
+.lightsaber {
+    cursor: pointer;
+}
+
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 520px;
+}
+
+.font {
+    font-family: Poppins;
+    font-size: 32px;
+}
+
+.saber {
+    opacity: 0.5;
+    transition: opacity .5s;
+}
+
+.saber:hover {
+    opacity: 1;
+}
+
+#qrcode {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 5px #22c6ef;
+    border-radius: 10px;
+}
+
+#room-url {
+    font-size: 24px;
+}
+
+#room-url a {
+    text-decoration: none;
+}
+
+#score {
+    z-index: 1;
+    position: absolute;
+    right: 15%;
+    top: 10%;
+}
+
+#scoretitle {
+    z-index: 1;
+    position: absolute;
+    right: 15%;
+    top: 3%;
+}
+
+#introMessage {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 45vh;
+}
+
+#outroMessage {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 40vh;
+}
+
+.statbar {
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
+
+.message {
+    font-size: 60px;
+}
